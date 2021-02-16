@@ -1,40 +1,32 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const backend: ISkill.Skill = {
-  category: 'Back-end',
+  category: 'Programming Languages',
   items: [
     {
-      title: 'Node.js',
-      level: 3,
-    },
-    {
-      title: 'AWS',
-      level: 3,
-    },
-    {
-      title: 'PHP',
-      level: 2,
-    },
-    {
       title: 'Java',
-      level: 1,
-    },
-    {
-      title: 'Python',
-      level: 1,
+      level: 3,
     },
     {
       title: 'C/C++',
+      level: 3,
+    },
+    {
+      title: 'Go',
+      level: 2,
+    },
+    {
+      title: 'Python',
       level: 1,
     },
   ],
 };
 
 const database: ISkill.Skill = {
-  category: 'Database',
+  category: 'Back-end',
   items: [
     {
-      title: 'MySQL',
+      title: 'Redis',
       level: 3,
     },
     {
@@ -101,7 +93,8 @@ const etc: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [backend, database, frontend, etc],
-  tooltip: '1: 기초 수준\n2: 취미 개발 수준\n3: Production 개발 가능 수준',
+  tooltip:
+    '1: 관심이 있고, 배우는 중\n2: 기본적인 기능 및 취미에 사용\n3: 다양한 업무에 능숙하게 사용',
 };
 
 export default skill;

@@ -1,8 +1,8 @@
 {
-  "name": "resume-nextjs",
-  "lastestUpdatedAt": "2020-11-08",
-  "version": "1.0.4",
-  "description": "Static HTML based RESUME made with next.js",
+  "name": "resume",
+  "lastestUpdatedAt": "2021-02-17",
+  "version": "1.0.0",
+  "description": "Wonjoon's resume. Made from yowu's masterpiece",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,9 +28,9 @@
     "next"
   ],
   "author": {
-    "name": "Yowu Yu",
-    "email": "me@yowu.dev",
-    "url": "https://yowu.dev"
+    "name": "Wonjoon Lee",
+    "email": "wnjoon@gmail.com",
+    "url": "https://wnjoon.tistory.com"
   },
   "contributors": [],
   "license": "MIT",
