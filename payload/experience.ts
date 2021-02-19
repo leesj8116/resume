@@ -5,7 +5,7 @@ const experience: IExperience.Payload = {
   list: [
     {
       title: 'LG CNS',
-      position: 'Blockchain Software Architect',
+      position: 'Blockchain Software Engineer',
       startedAt: '2018-07',
       descriptions: [
         '하이퍼레저 패브릭 기반의 스마트 컨트랙트 개발 및 아키텍처 구성',
