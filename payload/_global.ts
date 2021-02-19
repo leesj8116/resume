@@ -1,9 +1,9 @@
 import favicon from '../asset/favicon.ico';
-import previewImage from '../asset/preview.jpg';
+import previewImage from '../asset/preview_wally.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = 'Wonjoon Lee - Resume page';
-const description = 'This is my resume sample.';
+const description = '차곡차곡 적어보는 나의 이력서 - by Wonjoon Lee.';
 
 export const _global: IGlobal.Payload = {
   favicon,
