@@ -1,6 +1,8 @@
 # RESUME
 
-[이력서 사이트](https://wnjoon.github.io/resume)
+
+## [이력서 사이트](https://wnjoon.github.io/resume)
+
 
 [요우님의 이력서 샘플](uyu_readme.md)을 fork해서 작성하였음 
 (멀리서나마 이자리를 빌어 감사합니다)
