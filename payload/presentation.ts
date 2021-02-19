@@ -10,7 +10,8 @@ const presentation: IPresentation.Payload = {
       at: '2017-12',
       descriptions: [
         {
-          content: '3-way handshaking 세션 구성 단계에 키 교환방식을 적용한 세션 별 독립적인 암호키 생성 구조 제안',
+          content:
+            '3-way handshaking 세션 구성 단계에 키 교환방식을 적용한 세션 별 독립적인 암호키 생성 구조 제안',
         },
         {
           content: 'Paper:',
@@ -24,7 +25,8 @@ const presentation: IPresentation.Payload = {
       at: '2017-11',
       descriptions: [
         {
-          content: '넌어드레스 장비에서의 AES 키 길이 변화에 따른 데이터 암복호화 성능 개선 방안 제안',
+          content:
+            '넌어드레스 장비에서의 AES 키 길이 변화에 따른 데이터 암복호화 성능 개선 방안 제안',
         },
         {
           content: 'Paper:',
@@ -38,7 +40,8 @@ const presentation: IPresentation.Payload = {
       at: '2015-01',
       descriptions: [
         {
-          content: 'Develope simulator on QualNet for performance evaluation of the DDS and verify performances',
+          content:
+            'Develope simulator on QualNet for performance evaluation of the DDS and verify performances',
         },
         {
           content: 'Paper:',
@@ -52,7 +55,8 @@ const presentation: IPresentation.Payload = {
       at: '2014-11',
       descriptions: [
         {
-          content: 'Propose a programming pattern that functions as a full-duplex listening structure, and apply it to implement tools for DDS monitoring and analysis',
+          content:
+            'Propose a programming pattern that functions as a full-duplex listening structure, and apply it to implement tools for DDS monitoring and analysis',
         },
         {
           content: 'Paper:',
