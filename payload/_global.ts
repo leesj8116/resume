@@ -2,8 +2,8 @@ import favicon from '../asset/favicon.ico';
 import previewImage from '../asset/preview.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = 'RESUME-NEXTJS Sample Page';
-const description = 'This is a simple web resume sample.';
+const title = 'Wonjoon Lee - Resume page';
+const description = 'This is my resume sample.';
 
 export const _global: IGlobal.Payload = {
   favicon,

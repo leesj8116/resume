@@ -5,8 +5,10 @@ const introduce: IIntroduce.Payload = {
   disable: false,
 
   contents: [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer massa magna, feugiat commodo arcu sed, sagittis sollicitudin tortor. Nullam diam ex, interdum nec lacus vel, ultrices pretium sapien. Proin bibendum non nibh eu aliquet. In sit amet arcu sed nisi tincidunt ultricies. Fusce magna tellus, egestas at pretium quis, rutrum et ante. Phasellus efficitur lectus felis, sed lacinia enim rhoncus ut. Sed id mi vitae neque aliquet porttitor. Fusce dignissim ipsum urna, at finibus lectus sodales ut. Nulla ut purus vestibulum, dapibus tellus consequat, porttitor purus. Nunc egestas tortor ut vehicula mollis.',
-    'Integer ut libero eu libero mattis rutrum at at urna. Integer non turpis ante. Suspendisse vestibulum odio id libero facilisis gravida. In ipsum est, pellentesque vestibulum tortor eu, bibendum imperdiet metus. Quisque ornare eget ex ut congue. Nam vel finibus sem. Phasellus id neque nibh. Nullam turpis velit, pharetra vitae mi non, bibendum maximus urna.',
+    '베이스기타와 재즈를 좋아하는 3년차 백엔드 개발자이며, 현재는 프라이빗 블록체인 개발자로 일하고 있습니다.',
+    '다수의 사용자가 사용하는 대량 서비스 솔루션 개발에 관심이 있으며, 업무를 단순화 시키고 자동화하는 일을 좋아합니다.',
+    '모놀리틱보다는 마이크로틱한 구조를 좋아하고, 개발과 단위테스트는 절대 떼놓을 수 없는 사이라고 생각하고 있습니다.',
+    '최근에는 클라우드, 데브옵스, k8s와 같이 분산된 환경에서의 효율적인 확장성에 관심을 갖고 있으며, go routine의 매력에 빠져있습니다.'
   ],
   sign: 'Wonjoon Lee',
   // sign: packageJson.author.name,
