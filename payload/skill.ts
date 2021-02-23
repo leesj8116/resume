@@ -1,7 +1,7 @@
 import { ISkill } from '../component/skill/ISkill';
 
 const backend: ISkill.Skill = {
-  category: 'Backend',
+  category: 'Programming Languages',
   items: [
     {
       title: 'Hyperledger Fabric',
@@ -45,8 +45,12 @@ const devops: ISkill.Skill = {
 };
 
 const env: ISkill.Skill = {
-  category: 'Environment',
+  category: 'Platform/Environment',
   items: [
+    {
+      title: 'Hyperledger fabric',
+      level: 3,
+    },
     {
       title: 'Linux(CentOS, Ubuntu)',
       level: 3,
