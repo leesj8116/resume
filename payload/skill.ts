@@ -1,12 +1,8 @@
 import { ISkill } from '../component/skill/ISkill';
 
-const backend: ISkill.Skill = {
+const pl: ISkill.Skill = {
   category: 'Programming Languages',
   items: [
-    {
-      title: 'Hyperledger Fabric',
-      level: 3,
-    },
     {
       title: 'Java',
       level: 3,
@@ -45,7 +41,7 @@ const devops: ISkill.Skill = {
 };
 
 const env: ISkill.Skill = {
-  category: 'Platform/Environment',
+  category: 'Platform',
   items: [
     {
       title: 'Hyperledger fabric',
@@ -100,7 +96,7 @@ const cert: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [backend, devops, env, tool, cert],
+  skills: [pl, devops, env, tool, cert],
   tooltip:
     '1: 관심이 있고, 취미로 사용 중\n2: 업무에 적용해 본 경험이 있음\n3: 다양한 업무에서 사용',
 };
