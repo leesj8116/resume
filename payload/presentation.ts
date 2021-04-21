@@ -11,6 +11,10 @@ const presentation: IPresentation.Payload = {
       descriptions: [
         {
           content:
+            '영문: Dynamic key exchange system for independent cryptographic key generation per session',
+        },
+        {
+          content:
             '3-way handshaking 세션 구성 단계에 키 교환방식을 적용한 세션 별 독립적인 암호키 생성 구조 제안',
         },
         {
@@ -24,6 +28,10 @@ const presentation: IPresentation.Payload = {
       subTitle: '학회논문 - 주저자',
       at: '2017-11',
       descriptions: [
+        {
+          content:
+            '영문: Performance comparison by key length of AES encryption using Non-Addressable Data Protection Devices',
+        },
         {
           content:
             '넌어드레스 장비에서의 AES 키 길이 변화에 따른 데이터 암복호화 성능 개선 방안 제안',
