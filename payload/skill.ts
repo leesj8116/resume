@@ -30,6 +30,10 @@ const devops: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Jenkins',
+      level: 2,
+    },
+    {
       title: 'Maven/Gradle',
       level: 2,
     },
@@ -87,6 +91,12 @@ const cert: ISkill.Skill = {
   items: [
     {
       title: 'CHFA(Certified Hyperledger Fabric Administrator',
+    },
+    {
+      title: 'Corda Certified Developer',
+    },
+    {
+      title: '정보처리기사',
     },
     // {
     //   title: 'Eclipse',

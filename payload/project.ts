@@ -6,6 +6,7 @@ const project: IProject.Payload = {
     {
       title: '한국은행 CBDC 파일럿 컨설팅 사업',
       startedAt: '2020-12',
+      endedAt: '2021-03',
       where: 'LG CNS',
       descriptions: [
         { content: '한국은행 CBDC 시스템 구성을 위한 컨설팅 진행' },
