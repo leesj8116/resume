@@ -22,7 +22,7 @@ const experience: IExperience.Payload = {
       title: 'Ever More Security',
       position: 'Software Engineer',
       startedAt: '2017-01',
-      endedAt: '2017-11',
+      endedAt: '2018-03',
       descriptions: [
         '인증된 기기 간 데이터를 암복호화하는 보안 장비 프로그램 개발',
         'iptable, netfileter를 활용한 계정/주소가 없는 통신 장비 시스템 구성',
