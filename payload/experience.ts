@@ -21,7 +21,7 @@ const experience: IExperience.Payload = {
     {
       title: 'Ever More Security',
       position: 'Software Engineer',
-      startedAt: '2017-01',
+      startedAt: '2016-01',
       endedAt: '2018-03',
       descriptions: [
         '인증된 기기 간 데이터를 암복호화하는 보안 장비 프로그램 개발',

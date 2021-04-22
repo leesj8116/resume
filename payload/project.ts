@@ -87,7 +87,7 @@ const project: IProject.Payload = {
     },
     {
       title: '넌어드레스 장비에서의 동적 암호화 기술 개발',
-      startedAt: '2017-01',
+      startedAt: '2016-11',
       endedAt: '2017-07',
       where: 'Ever More Security',
       descriptions: [
