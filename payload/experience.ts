@@ -28,7 +28,7 @@ const experience: IExperience.Payload = {
         'Develop a real-time key exchange system between communication sessions using Netfilter and iptables-based packet capture system',
         'Apply for a patent of real-time key exchange mechanism',
       ],
-      skillKeywords: ['Packet forwarding', 'Key exchange' , 'Cryptographic' , 'C'],
+      skillKeywords: ['Packet forwarding', 'Key exchange', 'Cryptographic', 'C'],
     },
   ],
 };

@@ -6,12 +6,11 @@ const presentation: IPresentation.Payload = {
   list: [
     {
       title: 'Dynamic key exchange system for independent cryptographic key generation per session',
-      subTitle: 'Master\'s thesis',
+      subTitle: "Master's thesis",
       at: '2017-12',
       descriptions: [
         {
-          content:
-            'Korean: 세션 별 독립적 암호 키 생성을 위한 동적 키 교환 시스템',
+          content: 'Korean: 세션 별 독립적 암호 키 생성을 위한 동적 키 교환 시스템',
         },
         {
           content:
@@ -24,7 +23,8 @@ const presentation: IPresentation.Payload = {
       ],
     },
     {
-      title: 'Performance comparison by key length of AES encryption using Non-Addressable Data Protection Devices',
+      title:
+        'Performance comparison by key length of AES encryption using Non-Addressable Data Protection Devices',
       subTitle: 'Conference paper - Author',
       at: '2017-11',
       descriptions: [

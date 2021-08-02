@@ -10,7 +10,10 @@ const project: IProject.Payload = {
       where: 'LG CNS',
       descriptions: [
         { content: '한국은행 CBDC 파일럿 컨설팅 사업' },
-        { content: 'Analysis Bank of Korea business and propose blockchain data structure and system' },
+        {
+          content:
+            'Analysis Bank of Korea business and propose blockchain data structure and system',
+        },
       ],
     },
     {
@@ -23,13 +26,22 @@ const project: IProject.Payload = {
         {
           content: 'Construct Hyperledger Fabric-based multi-node blockchain system',
           descriptions: [
-            { content: 'Reduced server usage and construction complexity compared to Kafka-Zookeeper through Raft consensus algorithm' },
+            {
+              content:
+                'Reduced server usage and construction complexity compared to Kafka-Zookeeper through Raft consensus algorithm',
+            },
             { content: 'Measure and Optimize TPS using nGrinder' },
-            { content: 'Configure service discovery policies for each peer node and reduce API call load' },
+            {
+              content:
+                'Configure service discovery policies for each peer node and reduce API call load',
+            },
           ],
         },
         { content: 'System configuration in an environment without internet (public cloud)' },
-        { content: 'Application of a script that automatically checks blockchain server failure and restores it' },
+        {
+          content:
+            'Application of a script that automatically checks blockchain server failure and restores it',
+        },
       ],
     },
     {
@@ -42,19 +54,23 @@ const project: IProject.Payload = {
         { content: 'Construct Hyperledger Fabric-based blockchain system' },
         {
           content: 'Transfer of blockchain system according to cloud vendor change',
-          descriptions: [{ content: 'Re-distribute blockchain node and chaincode using docker image' }],
+          descriptions: [
+            { content: 'Re-distribute blockchain node and chaincode using docker image' },
+          ],
         },
       ],
     },
     {
-      title: 'Jeollanam-do Provincial Government Blockchain-based Eco-Friendly Agricultural Products Distribution Platform and Service Construction',
+      title:
+        'Jeollanam-do Provincial Government Blockchain-based Eco-Friendly Agricultural Products Distribution Platform and Service Construction',
       startedAt: '2019-08',
       endedAt: '2019-12',
       where: 'LG CNS',
       descriptions: [
-        { content: '전남도청 블록체인 기반 친환경 농산물 유통 플랫폼 및 서비스 구축', },
+        { content: '전남도청 블록체인 기반 친환경 농산물 유통 플랫폼 및 서비스 구축' },
         {
-          content: 'Develop Agricultural product distribution business Smart contract in Hyperledger fabric',
+          content:
+            'Develop Agricultural product distribution business Smart contract in Hyperledger fabric',
           descriptions: [
             {
               content:
@@ -84,8 +100,14 @@ const project: IProject.Payload = {
         {
           content: 'Develop Non-addressable communication equipment software',
           descriptions: [
-            { content: 'Developed and patented dynamic encryption key generation technology for each session' },
-            { content: 'Configure a separate routing table in the form of {key,value} to check authentication between devices' },
+            {
+              content:
+                'Developed and patented dynamic encryption key generation technology for each session',
+            },
+            {
+              content:
+                'Configure a separate routing table in the form of {key,value} to check authentication between devices',
+            },
             { content: 'Modifying the system kernel to work with various Linux vendors' },
           ],
         },
@@ -100,17 +122,29 @@ const project: IProject.Payload = {
         {
           content: 'Research and Development',
           descriptions: [
-            { content: 'Participate in multi-directional listening structure research to improve DDS monitoring tool performance' },
+            {
+              content:
+                'Participate in multi-directional listening structure research to improve DDS monitoring tool performance',
+            },
             { content: 'Participate in Developing tools for DDS simulation' },
           ],
         },
         {
           content: 'Papers',
           descriptions: [
-            { content: 'Dynamic key exchange system for independent cryptographic key generation per session (2017)' },
-            { content: 'Performance comparison by key length of AES encryption using Non-Addressable Data Protection Devices (2017)' },
+            {
+              content:
+                'Dynamic key exchange system for independent cryptographic key generation per session (2017)',
+            },
+            {
+              content:
+                'Performance comparison by key length of AES encryption using Non-Addressable Data Protection Devices (2017)',
+            },
             { content: 'A Performance Simulator for DDS Network (2015)' },
-            { content: 'A full-duplex listening structure for network and application monitoring (2014)' },
+            {
+              content:
+                'A full-duplex listening structure for network and application monitoring (2014)',
+            },
           ],
         },
       ],
