@@ -5,17 +5,17 @@ const presentation: IPresentation.Payload = {
 
   list: [
     {
-      title: '세션 별 독립적 암호 키 생성을 위한 동적 키 교환 시스템',
-      subTitle: '석사학위논문',
+      title: 'Dynamic key exchange system for independent cryptographic key generation per session',
+      subTitle: 'Master\'s thesis',
       at: '2017-12',
       descriptions: [
         {
           content:
-            '영문: Dynamic key exchange system for independent cryptographic key generation per session',
+            'Korean: 세션 별 독립적 암호 키 생성을 위한 동적 키 교환 시스템',
         },
         {
           content:
-            '3-way handshaking 세션 구성 단계에 키 교환방식을 적용한 세션 별 독립적인 암호키 생성 구조 제안',
+            'Proposal of an independent encryption key generation structure for each session applying the key exchange method to the 3-way handshaking session configuration step',
         },
         {
           content: 'Paper:',
@@ -24,17 +24,17 @@ const presentation: IPresentation.Payload = {
       ],
     },
     {
-      title: 'AES 암호 방식에서의 암호 키 길이 변화에 따른 넌어드레스 장비의 성능 측정 및 비교',
-      subTitle: '학회논문 - 주저자',
+      title: 'Performance comparison by key length of AES encryption using Non-Addressable Data Protection Devices',
+      subTitle: 'Conference paper - Author',
       at: '2017-11',
       descriptions: [
         {
           content:
-            '영문: Performance comparison by key length of AES encryption using Non-Addressable Data Protection Devices',
+            'Korean: AES 암호 방식에서의 암호 키 길이 변화에 따른 넌어드레스 장비의 성능 측정 및 비교',
         },
         {
           content:
-            '넌어드레스 장비에서의 AES 키 길이 변화에 따른 데이터 암복호화 성능 개선 방안 제안',
+            'Proposal of data encryption/decryption performance improvement plan according to AES key length change in non-address device',
         },
         {
           content: 'Paper:',
@@ -44,7 +44,7 @@ const presentation: IPresentation.Payload = {
     },
     {
       title: 'A Performance Simulator for DDS Network',
-      subTitle: 'IEEE - 참여저자',
+      subTitle: 'IEEE - Participant',
       at: '2015-01',
       descriptions: [
         {
@@ -59,7 +59,7 @@ const presentation: IPresentation.Payload = {
     },
     {
       title: 'A full-duplex listening structure for network and application monitoring',
-      subTitle: 'IEEE - 참여저자',
+      subTitle: 'IEEE - Participant',
       at: '2014-11',
       descriptions: [
         {

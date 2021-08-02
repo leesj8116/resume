@@ -11,7 +11,7 @@ const profile: IProfile.Payload = {
   image,
   name: {
     title: 'Wonjoon Lee',
-    small: '(월리)',
+    small: '',
   },
   contact: [
     {
@@ -35,7 +35,7 @@ const profile: IProfile.Payload = {
       icon: faLinkedin,
     },
     {
-      title: 'Blog(월리의 탐구생활)',
+      title: 'Blog',
       link: 'https://wnjoon.tistory.com',
       icon: faBlogger,
     },
