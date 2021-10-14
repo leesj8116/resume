@@ -36,7 +36,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Blog',
-      link: 'https://wnjoon.tistory.com',
+      link: 'https://wnjoon.github.io',
       icon: faBlogger,
     },
     // {
