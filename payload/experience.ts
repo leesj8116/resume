@@ -16,7 +16,7 @@ const experience: IExperience.Payload = {
         'Develop API application for smart contract transaction call',
         'Design and implement smart contract logic for efficient processing of large amounts of data',
       ],
-      skillKeywords: ['Blockchain', 'Hyperledger Fabric', 'Docker', 'Golang', 'Java'],
+      skillKeywords: ['Blockchain', 'Hyperledger Fabric', 'Ethereum', 'Docker', 'Golang', 'Java'],
     },
     {
       title: 'Ever More Security',
