@@ -10,13 +10,19 @@ const project: IProject.Payload = {
       where: 'LG CNS',
       descriptions: [
         { content: '블록체인 신기술 프로토타이핑 - NFT 마켓플레이스' },
-        { content: 'Construct Ethereum private network based on PoW using geth and truffle' }, 
+        { content: 'Construct Ethereum private network based on PoW using geth and truffle' },
         {
           content: 'Develop Ethereum client application calling smart contract using Web3j',
           descriptions: [
             { content: 'Using class wrapper to adjust smart contract to Java' },
-            { content: 'Adjust 0xProtocol to Java without class wrapper to avoid internal problem by ABIEncoderV2' },
-            { content: 'Develop smart contract using solidity to exchange different types of tokens seperately' },
+            {
+              content:
+                'Adjust 0xProtocol to Java without class wrapper to avoid internal problem by ABIEncoderV2',
+            },
+            {
+              content:
+                'Develop smart contract using solidity to exchange different types of tokens seperately',
+            },
             { content: 'Develop RESTful API to communicate with web3j' },
           ],
         },
