@@ -15,6 +15,10 @@ const pl: ISkill.Skill = {
       title: 'C/C++',
       level: 2,
     },
+    {
+      title: 'Solidity',
+      level: 2,
+    },
   ],
 };
 
@@ -52,6 +56,10 @@ const env: ISkill.Skill = {
       level: 3,
     },
     {
+      title: 'Ethereum',
+      level: 2,
+    },
+    {
       title: 'Linux(CentOS, Ubuntu)',
       level: 3,
     },
@@ -82,6 +90,12 @@ const tool: ISkill.Skill = {
     },
     {
       title: 'Vim',
+    },
+    {
+      title: 'Geth',
+    },
+    {
+      title: 'Truffle',
     },
   ],
 };
