@@ -4,6 +4,26 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'NFT marketplace system prototyping',
+      startedAt: '2021-08',
+      endedAt: '2021-11',
+      where: 'LG CNS',
+      descriptions: [
+        { content: '블록체인 신기술 프로토타이핑 - NFT 마켓플레이스' },
+        { content: 'Construct Ethereum private network based on PoW using geth and truffle' }, 
+        {
+          content: 'Develop Ethereum client application calling smart contract using Web3j',
+          descriptions: [
+            { content: 'Using class wrapper to adjust smart contract to Java' },
+            { content: 'Adjust 0xProtocol to Java without class wrapper to avoid internal problem by ABIEncoderV2' },
+            { content: 'Develop smart contract using solidity to exchange different types of tokens seperately' },
+            { content: 'Develop RESTful API to communicate with web3j' },
+          ],
+        },
+        { content: 'Develop marketplace prototype application using react' },
+      ],
+    },
+    {
       title: 'Central bank digital currency pilot system consulting',
       startedAt: '2020-12',
       endedAt: '2021-03',
