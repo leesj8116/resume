@@ -4,9 +4,25 @@ const experience: IExperience.Payload = {
   disable: false,
   list: [
     {
+      title: 'Samsung Securities',
+      position: 'Senior Engineer',
+      startedAt: '2022-02',
+      descriptions: ['Construct Blockchain Platform based on STO'],
+      skillKeywords: [
+        'Blockchain',
+        'Hyperledger Fabric',
+        'Ethereum',
+        'Docker',
+        'Golang',
+        'Java',
+        'Solidity',
+      ],
+    },
+    {
       title: 'LG CNS',
       position: 'Blockchain Software Engineer',
       startedAt: '2018-07',
+      endedAt: '2022-02',
       descriptions: [
         'Construct and configure Hyperledger fabric-based blockchain system',
         'Apply various consensus algorithms (Raft, Kafka-zookeeper)',
@@ -16,7 +32,15 @@ const experience: IExperience.Payload = {
         'Develop API application for smart contract transaction call',
         'Design and implement smart contract logic for efficient processing of large amounts of data',
       ],
-      skillKeywords: ['Blockchain', 'Hyperledger Fabric', 'Ethereum', 'Docker', 'Golang', 'Java'],
+      skillKeywords: [
+        'Blockchain',
+        'Hyperledger Fabric',
+        'Ethereum',
+        'Docker',
+        'Golang',
+        'Java',
+        'Solidity',
+      ],
     },
     {
       title: 'Ever More Security',

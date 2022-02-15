@@ -4,6 +4,21 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'NFT platform construct project',
+      startedAt: '2021-11',
+      endedAt: '2022-02',
+      where: 'LG CNS',
+      descriptions: [
+        { content: 'NFT 플랫폼 구축 사업' },
+        { content: 'Design NFT platform system architecture connected with Public Mainnet' },
+        { content: 'Construct and Design Hyperledger fabric based NFT platform system' },
+        {
+          content:
+            'Construct CEX(Central-Exchange) Wallet in public blockchain and Hyperledger Fabric',
+        },
+      ],
+    },
+    {
       title: 'NFT marketplace system prototyping',
       startedAt: '2021-08',
       endedAt: '2021-11',
