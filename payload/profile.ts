@@ -47,7 +47,8 @@ const profile: IProfile.Payload = {
     // },
   ],
   notice: {
-    title: 'Status : Open to new opportunities and challenges 🙋‍♂️',
+    title: 'Working hard at my current job 👨‍💻',
+    // title: 'Status : Open to new opportunities and challenges 🙋‍♂️',
     // title: 'Status : 작성중입니다 🔧',
     icon: faBell,
   },
