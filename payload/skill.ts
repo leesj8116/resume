@@ -19,6 +19,10 @@ const pl: ISkill.Skill = {
       title: 'Solidity',
       level: 2,
     },
+    {
+      title: 'JavaScript',
+      level: 1,
+    },
   ],
 };
 
