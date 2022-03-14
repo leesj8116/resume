@@ -16,6 +16,7 @@ const experience: IExperience.Payload = {
         'Golang',
         'Java',
         'Solidity',
+        'Quorum',
       ],
     },
     {
