@@ -64,6 +64,10 @@ const env: ISkill.Skill = {
       level: 2,
     },
     {
+      title: 'Quorum',
+      level: 2,
+    },
+    {
       title: 'Linux(CentOS, Ubuntu)',
       level: 3,
     },
@@ -107,6 +111,9 @@ const tool: ISkill.Skill = {
 const cert: ISkill.Skill = {
   category: 'Certification',
   items: [
+    {
+      title: 'CKA(Certified Kubernetes Administrator',
+    },
     {
       title: 'CHFA(Certified Hyperledger Fabric Administrator',
     },
