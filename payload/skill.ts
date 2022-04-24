@@ -112,10 +112,10 @@ const cert: ISkill.Skill = {
   category: 'Certification',
   items: [
     {
-      title: 'CKA(Certified Kubernetes Administrator',
+      title: 'CKA(Certified Kubernetes Administrator)',
     },
     {
-      title: 'CHFA(Certified Hyperledger Fabric Administrator',
+      title: 'CHFA(Certified Hyperledger Fabric Administrator)',
     },
     {
       title: 'Corda Certified Developer',
