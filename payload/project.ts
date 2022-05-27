@@ -9,11 +9,13 @@ const project: IProject.Payload = {
       // endedAt: '2022-0',
       where: 'Samsung Securities',
       descriptions: [
-        { content: 'ST 플랫폼 구축' },
+        { content: 'ST(Security Token) 플랫폼 구축' },
         { content: 'Construct blockchain platform using Quorum, private Ethereum network' },
         {
-          content:
-            'Smart contract development and testing for securities business using ERC1400, ERC721',
+          content: 'Smart contract development for securities business using ERC1400, ERC721',
+        },
+        {
+          content: 'Smart contract testing using hardhat with typescript',
         },
         {
           content:
