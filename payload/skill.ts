@@ -25,7 +25,7 @@ const pl: ISkill.Skill = {
     },
     {
       title: 'TypeScript',
-      level: 1,
+      level: 2,
     },
   ],
 };
