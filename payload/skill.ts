@@ -23,6 +23,10 @@ const pl: ISkill.Skill = {
       title: 'JavaScript',
       level: 1,
     },
+    {
+      title: 'TypeScript',
+      level: 1,
+    },
   ],
 };
 
@@ -104,6 +108,9 @@ const tool: ISkill.Skill = {
     },
     {
       title: 'Truffle',
+    },
+    {
+      title: 'Hardhat',
     },
   ],
 };
