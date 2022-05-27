@@ -4,6 +4,25 @@ const project: IProject.Payload = {
   disable: false,
   list: [
     {
+      title: 'ST platform construct project',
+      startedAt: '2022-02',
+      // endedAt: '2022-0',
+      where: 'Samsung Securities',
+      descriptions: [
+        { content: 'ST 플랫폼 구축' },
+        { content: 'Construct blockchain platform using Quorum, private Ethereum network' },
+        {
+          content:
+            'Smart contract development and testing for securities business using ERC1400, ERC721',
+        },
+        {
+          content:
+            'Re-constructing multi-sig using Gnosis open source for generating pre-confirmed signatures from off-chain',
+        },
+        { content: 'Private Ethereum client development using golang' },
+      ],
+    },
+    {
       title: 'NFT platform construct project',
       startedAt: '2021-11',
       endedAt: '2022-02',
