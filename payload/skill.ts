@@ -17,7 +17,7 @@ const pl: ISkill.Skill = {
     },
     {
       title: 'Solidity',
-      level: 2,
+      level: 3,
     },
     {
       title: 'JavaScript',
@@ -65,11 +65,7 @@ const env: ISkill.Skill = {
     },
     {
       title: 'Ethereum',
-      level: 2,
-    },
-    {
-      title: 'Quorum',
-      level: 2,
+      level: 3,
     },
     {
       title: 'Linux(CentOS, Ubuntu)',
@@ -130,9 +126,6 @@ const cert: ISkill.Skill = {
     {
       title: '정보처리기사',
     },
-    // {
-    //   title: 'Eclipse',
-    // },
   ],
 };
 

@@ -10,7 +10,7 @@ const experience: IExperience.Payload = {
       descriptions: [
         'Construct Blockchain Platform based on ST(Security Token)',
         'Develop smartcontract for security token using ERC1400',
-        'Upgrade Multi-sig smartcontract based on Gnosis SafeContract for reducing sign times in private network',
+        'Develop Multi-sig smartcontract based on Gnosis SafeContract for reducing sign times in private network',
         'Develop client application using golang to connect with Quorum(Private Ethereum) network', 
       ],
       skillKeywords: ['Blockchain', 'Ethereum', 'Quorum', 'Golang', 'Java', 'Solidity', 'Docker'],
