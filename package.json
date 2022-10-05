@@ -1,8 +1,8 @@
 {
   "name": "resume",
-  "lastestUpdatedAt": "2022-04-24",
+  "lastestUpdatedAt": "2022-10-05",
   "version": "1.0.0",
-  "description": "Wonjoon's resume. Made from yowu's masterpiece",
+  "description": "Toycode's resume. Made from yowu's masterpiece",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,19 +18,19 @@
     "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://wnjoon.github.io/resume",
+  "homepage": "https://hyeonseokhan.github.io/resume",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wnjoon/resume.git"
+    "url": "git+https://github.com/hyeonseokhan/resume.git"
   },
   "keywords": [
     "resume",
     "next"
   ],
   "author": {
-    "name": "Wonjoon Lee",
-    "email": "wnjoon@gmail.com",
-    "url": "https://wnjoon.github.io"
+    "name": "Hyeonseok Han",
+    "email": "toycode727@gmail.com",
+    "url": "https://hyeonseokhan.github.io"
   },
   "contributors": [],
   "license": "MIT",
