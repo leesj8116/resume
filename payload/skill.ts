@@ -8,23 +8,37 @@ const pl: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Go',
+      title: 'JavaScript',
       level: 3,
+    },
+    {
+      title: 'Go',
+      level: 2,
     },
     {
       title: 'C/C++',
       level: 2,
     },
     {
-      title: 'Solidity',
+      title: 'SQL',
+      level: 2,
+    },
+  ],
+};
+
+const blockchain: ISkill.Skill = {
+  category: 'Blockchain',
+  items: [
+    {
+      title: 'Hyperledger fabric',
       level: 3,
     },
     {
-      title: 'JavaScript',
-      level: 1,
+      title: 'Nexledger',
+      level: 3,
     },
     {
-      title: 'TypeScript',
+      title: 'Monachain',
       level: 2,
     },
   ],
@@ -38,19 +52,19 @@ const devops: ISkill.Skill = {
       level: 3,
     },
     {
-      title: 'Git',
+      title: 'Docker-Compose',
       level: 3,
     },
     {
-      title: 'Jenkins',
-      level: 2,
-    },
-    {
       title: 'Maven/Gradle',
+      level: 3,
+    },
+    {
+      title: 'Terraform',
       level: 2,
     },
     {
-      title: 'Kubernetes',
+      title: 'Git',
       level: 1,
     },
   ],
@@ -60,53 +74,50 @@ const env: ISkill.Skill = {
   category: 'Platform',
   items: [
     {
-      title: 'Hyperledger fabric',
+      title: 'Linux',
       level: 3,
     },
     {
-      title: 'Ethereum',
+      title: 'Oracle Cloud',
       level: 3,
     },
     {
-      title: 'Linux(CentOS, Ubuntu)',
-      level: 3,
-    },
-    {
-      title: 'Naver Cloud',
+      title: 'Cloud(AWS, Naver)',
       level: 2,
     },
   ],
 };
 
-const tool: ISkill.Skill = {
-  category: 'Tools',
+const knowledge: ISkill.Skill = {
+  category: 'Knowledge',
   items: [
     {
-      title: 'Vscode',
+      title: 'PKI',
+      level: 3,
     },
     {
-      title: 'Eclipse',
+      title: 'DID',
+      level: 3,
     },
     {
-      title: 'IntelliJ',
+      title: 'TSA',
+      level: 3,
     },
     {
-      title: 'Confluence',
+      title: 'CA',
+      level: 2,
     },
     {
-      title: 'Slack',
+      title: 'SSL/TLS',
+      level: 2,
     },
     {
-      title: 'Vim',
+      title: 'IaC',
+      level: 2,
     },
     {
-      title: 'Geth',
-    },
-    {
-      title: 'Truffle',
-    },
-    {
-      title: 'Hardhat',
+      title: 'MSA',
+      level: 1,
     },
   ],
 };
@@ -115,23 +126,14 @@ const cert: ISkill.Skill = {
   category: 'Certification',
   items: [
     {
-      title: 'CKA(Certified Kubernetes Administrator)',
-    },
-    {
-      title: 'CHFA(Certified Hyperledger Fabric Administrator)',
-    },
-    {
-      title: 'Corda Certified Developer',
-    },
-    {
-      title: '정보처리기사',
+      title: '정보처리산업기사',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [pl, devops, env, tool, cert],
+  skills: [pl, blockchain, devops, env, knowledge, cert],
   tooltip:
     '1: 관심이 있고, 취미로 사용 중\n2: 업무에 적용해 본 경험이 있음\n3: 다양한 업무에서 사용',
 };
