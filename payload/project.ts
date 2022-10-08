@@ -23,12 +23,34 @@ const project: IProject.Payload = {
       endedAt: '2022-01',
       where: '드림시큐리티',
       descriptions: [
-        { content: '개발 PL 업무 겸임 및 개발 담당' },
+        { content: '개발팀 PL 업무 및 개발 담당' },
         {
           content: '사용자 자격증명서 데이터 정의 및 VC 서버 개발 담당.',
         },
-        { content: '스마트컨트랙트 비즈니스로직 개발(Golang, Java)' },
-        { content: 'TTA 블록체인 플랫폼 시험 합의서 검토 및 대응 담당.' },
+        { content: 'Docker 컨테이너 배포를 위한 DID 플랫폼 도커라이징 및 배포 스크립트 작성' },
+        {
+          content:
+            '블록체인(Aergo, 블로코) 업무협의 및 DID 플랫폼 연계 블록체인 인터페이스 Java library 개발',
+        },
+      ],
+    },
+    {
+      title: '국민연금공단 블록체인 기반 해외 수급권 확인 시스템 구축사업',
+      startedAt: '2021-05',
+      endedAt: '2021-12',
+      where: '드림시큐리티',
+      descriptions: [
+        {
+          content:
+            '운영계 Proxy 서버구축 및 구간 암호화(SSL/TLS) 설정 및 KISA 정보보안취약점 조치 담당',
+        },
+        {
+          content: '운영계 연계 구간별 패킷분석을 통해 백본 및 라우터 보안이슈 담당',
+        },
+        { content: '사용자 제출 문서 TST 발급 및 주입, PDS 연계 문서 백업 작업 담당' },
+        {
+          content: 'TTA 서비스 및 블록체인 플랫폼 시험 대응',
+        },
       ],
     },
   ],
