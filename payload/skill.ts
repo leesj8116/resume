@@ -30,7 +30,7 @@ const blockchain: ISkill.Skill = {
   category: 'Blockchain',
   items: [
     {
-      title: 'Hyperledger fabric',
+      title: 'Hyperledger Fabric',
       level: 3,
     },
     {
@@ -134,8 +134,7 @@ const cert: ISkill.Skill = {
 const skill: ISkill.Payload = {
   disable: false,
   skills: [pl, blockchain, devops, env, knowledge, cert],
-  tooltip:
-    '1: 관심이 있고, 취미로 사용 중\n2: 업무에 적용해 본 경험이 있음\n3: 다양한 업무에서 사용',
+  tooltip: ['[3] 다양한 업무에서 사용\n', '[2] 업무에 적용한 경험\n', '[1] 관심을 가지고 있다\n'],
 };
 
 export default skill;

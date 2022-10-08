@@ -5,16 +5,15 @@ const education: IEducation.Payload = {
 
   list: [
     {
-      title: 'Chungnam National University',
-      subTitle: 'Master degree',
-      startedAt: '2014-03',
-      endedAt: '2018-02',
+      title: '고려사이버대학교',
+      subTitle: '학사, 소프트웨어공학',
+      startedAt: '2021-08',
     },
     {
-      title: 'Chungnam National University',
-      subTitle: 'Bachelor degree',
-      startedAt: '2007-03',
-      endedAt: '2014-02',
+      title: '혜전대학',
+      subTitle: '전문학사, 호텔조리과 서양식전공',
+      startedAt: '2011-03',
+      endedAt: '2016-02',
     },
   ],
 };

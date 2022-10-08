@@ -39,7 +39,7 @@ function Component({ payload }: PropsWithChildren<{ payload: Payload }>) {
   );
 }
 
-function createTooltip(content?: string) {
+function createTooltip(content?: string[]) {
   if (!content) {
     return '';
   }
@@ -52,7 +52,7 @@ function createTooltip(content?: string) {
       {' '}
       <FontAwesomeIcon icon={faQuestionCircle} id="skill-tooltip" />
       <Tooltip
-        style={{ whiteSpace: 'pre-wrap' }}
+        style={{ whiteSpace: 'pre-wrap', textAlign: 'left' }}
         placement="right"
         target="skill-tooltip"
         isOpen={tooltipOpen}

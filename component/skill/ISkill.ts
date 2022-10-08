@@ -18,7 +18,7 @@ export declare namespace ISkill {
      *
      * @description 'SKILL' 타이틀 옆에 붙는 tooltip 이다.
      */
-    tooltip?: string;
+    tooltip?: string[];
   }
 
   export interface Skill {
