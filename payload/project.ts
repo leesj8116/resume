@@ -42,7 +42,7 @@ const project: IProject.Payload = {
       descriptions: [
         {
           content:
-            '운영계 Proxy 서버구축 및 구간 암호화(SSL/TLS) 설정 및 KISA 정보보안취약점 조치 담당',
+            '운영계 Proxy 서버구축, 구간 암호화(SSL/TLS) 설정 및 KISA 정보보안취약점 조치 담당',
         },
         {
           content: '운영계 연계 구간별 패킷분석을 통해 백본 및 라우터 보안이슈 담당',
@@ -92,7 +92,7 @@ const project: IProject.Payload = {
         },
         {
           content:
-            'Oracle Cloud 플랫폼의 Subnet, NAT Gateway, Internet Gateway, Loadbalancer 및 클라우드 네크워크 구조에 대한 기술분석 및 설계 담당',
+            'Oracle Cloud 플랫폼의 Subnet, NAT/Internet Gateway, Loadbalancer 등 클라우드 네크워크 구조에 대한 기술분석 및 설계 담당',
         },
         {
           content: 'DID 플랫폼 Oracle Cloud 상품 등재를 위한 관리 담당.',

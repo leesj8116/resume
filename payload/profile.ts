@@ -36,7 +36,8 @@ const profile: IProfile.Payload = {
     // },
     {
       title: 'Blog',
-      link: 'https://hyeonseokhan.github.io',
+      // link: 'https://hyeonseokhan.github.io',
+      link: 'https://toycode.tistory.com/',
       icon: faBlogger,
     },
     // {
