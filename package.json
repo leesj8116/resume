@@ -1,8 +1,8 @@
 {
   "name": "resume",
-  "lastestUpdatedAt": "2022-10-05",
+  "lastestUpdatedAt": "2022-10-11",
   "version": "1.0.0",
-  "description": "Toycode's resume. Made from yowu's masterpiece",
+  "description": "Solu's resume. Made from yowu's masterpiece",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,24 +18,24 @@
     "lint": "eslint 'component/**/*' 'pages/**/*' 'payload/**/*' '*.ts' --fix",
     "typedoc": "typedoc --excludeExternals"
   },
-  "homepage": "https://hyeonseokhan.github.io/resume",
+  "homepage": "https://leesj8116.github.io/resume",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hyeonseokhan/resume.git"
+    "url": "git+https://github.com/leesj8116/resume.git"
   },
   "keywords": [
     "resume",
     "next"
   ],
   "author": {
-    "name": "Hyeonseok Han",
-    "email": "toycode727@gmail.com",
-    "url": "https://hyeonseokhan.github.io"
+    "name": "Seungjoo Lee",
+    "email": "leesj8115@naver.com",
+    "url": "https://leesj8116.github.io"
   },
   "contributors": [],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/uyu423/resume-nextjs/issues"
+    "url": "https://github.com/leesj8116/resume-nextjs/issues"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.31",

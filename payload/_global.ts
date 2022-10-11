@@ -2,8 +2,8 @@ import favicon from '../asset/favicon.ico';
 import previewImage from '../asset/profile.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
-const title = 'Hyeonseok Han - Resume page';
-const description = '걸어온 길을 믿고 나아가는 나의 발자취';
+const title = 'SeungJoo Lee - Resume page';
+const description = '함께 성장하기를 바라는 개발 주니어';
 
 export const _global: IGlobal.Payload = {
   favicon,
@@ -24,9 +24,9 @@ export const _global: IGlobal.Payload = {
       ],
       type: 'profile',
       profile: {
-        firstName: 'Hyeonseok',
-        lastName: 'Han',
-        username: 'Toycode',
+        firstName: 'Seungjoo',
+        lastName: 'Lee',
+        username: 'Solu',
         gender: 'Male',
       },
     },

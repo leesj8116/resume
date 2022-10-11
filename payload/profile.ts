@@ -10,13 +10,13 @@ const profile: IProfile.Payload = {
 
   image,
   name: {
-    title: 'Hyeonseok Han',
+    title: 'Seungjoo Lee',
     small: '',
   },
   contact: [
     {
-      title: 'toycode727@gmail.com',
-      link: 'mailto:toycode727@gmail.com',
+      title: 'leesj8115@naver.com',
+      link: 'mailto:leesj8115@naver.com',
       icon: faEnvelope,
     },
     {
@@ -26,7 +26,7 @@ const profile: IProfile.Payload = {
     },
     {
       title: 'Github',
-      link: 'https://github.com/hyeonseokhan',
+      link: 'https://github.com/leesj8116',
       icon: faGithub,
     },
     // {
@@ -37,7 +37,7 @@ const profile: IProfile.Payload = {
     {
       title: 'Blog',
       // link: 'https://hyeonseokhan.github.io',
-      link: 'https://toycode.tistory.com/',
+      link: 'https://solu8115.tistory.com/',
       icon: faBlogger,
     },
     // {

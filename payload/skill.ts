@@ -9,10 +9,6 @@ const pl: ISkill.Skill = {
     },
     {
       title: 'JavaScript',
-      level: 3,
-    },
-    {
-      title: 'Go',
       level: 2,
     },
     {
@@ -23,23 +19,9 @@ const pl: ISkill.Skill = {
       title: 'SQL',
       level: 2,
     },
-  ],
-};
-
-const blockchain: ISkill.Skill = {
-  category: 'Blockchain',
-  items: [
     {
-      title: 'Hyperledger Fabric',
-      level: 3,
-    },
-    {
-      title: 'Nexledger',
-      level: 3,
-    },
-    {
-      title: 'Monachain',
-      level: 2,
+      title: 'C#',
+      level: 1,
     },
   ],
 };
@@ -48,19 +30,15 @@ const devops: ISkill.Skill = {
   category: 'DevOps',
   items: [
     {
+      title: 'Gradle',
+      level: 3,
+    },
+    {
       title: 'Docker',
-      level: 3,
+      level: 2,
     },
     {
-      title: 'Docker-Compose',
-      level: 3,
-    },
-    {
-      title: 'Maven/Gradle',
-      level: 3,
-    },
-    {
-      title: 'Terraform',
+      title: 'Maven',
       level: 2,
     },
     {
@@ -77,64 +55,39 @@ const env: ISkill.Skill = {
       title: 'Linux',
       level: 3,
     },
-    {
-      title: 'Oracle Cloud',
-      level: 3,
-    },
-    {
-      title: 'Cloud(AWS, Naver)',
-      level: 2,
-    },
   ],
 };
 
 const knowledge: ISkill.Skill = {
-  category: 'Knowledge',
+  category: 'tool to use',
   items: [
     {
-      title: 'PKI',
+      title: 'Mybatis',
       level: 3,
     },
     {
-      title: 'DID',
+      title: 'Spring Data JPA',
       level: 3,
     },
     {
-      title: 'TSA',
-      level: 3,
-    },
-    {
-      title: 'CA',
+      title: 'Query DSL',
       level: 2,
     },
     {
-      title: 'SSL/TLS',
+      title: 'Relational Database',
       level: 2,
-    },
-    {
-      title: 'IaC',
-      level: 2,
-    },
-    {
-      title: 'MSA',
-      level: 1,
-    },
-  ],
-};
-
-const cert: ISkill.Skill = {
-  category: 'Certification',
-  items: [
-    {
-      title: '정보처리산업기사',
     },
   ],
 };
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [pl, blockchain, devops, env, knowledge, cert],
-  tooltip: ['[3] 다양한 업무에서 사용\n', '[2] 업무에 적용한 경험\n', '[1] 관심을 가지고 있다\n'],
+  skills: [pl, devops, env, knowledge],
+  tooltip: [
+    '[3] 업무에 능숙하게 활용 가능\n',
+    '[2] 활용 가능하나 깊이는 아쉬움\n',
+    '[1] 얕은 경험과 지식 보유\n',
+  ],
 };
 
 export default skill;
