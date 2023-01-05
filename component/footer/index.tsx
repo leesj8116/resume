@@ -36,7 +36,7 @@ function Component({ payload }: PropsWithChildren<{ payload: IFooter.Payload }>)
           <EmptyRowCol>
             <small>
               {/* eslint-disable-next-line jsx-a11y/alt-text */}
-              <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fhyeonseokhan.github.io%2Fresume%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false" />
+              <img src="https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fleesj8116.github.io%2Fresume%2F&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false" />
             </small>
           </EmptyRowCol>
           <br />
