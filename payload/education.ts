@@ -6,7 +6,7 @@ const education: IEducation.Payload = {
   list: [
     {
       title: '서경대학교',
-      subTitle: 'Bachelor degree, 소프트웨어공학',
+      subTitle: '컴퓨터공학 학사',
       startedAt: '2014-03',
       endedAt: '2018-02',
     },

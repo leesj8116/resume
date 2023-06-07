@@ -12,12 +12,20 @@ const pl: ISkill.Skill = {
       level: 2,
     },
     {
-      title: 'C/C++',
+      title: 'TypeScript',
+      level: 2,
+    },
+    {
+      title: 'Kotlin',
       level: 2,
     },
     {
       title: 'SQL',
       level: 2,
+    },
+    {
+      title: 'C/C++',
+      level: 1,
     },
     {
       title: 'C#',
@@ -31,10 +39,6 @@ const devops: ISkill.Skill = {
   items: [
     {
       title: 'Gradle',
-      level: 3,
-    },
-    {
-      title: 'Docker',
       level: 2,
     },
     {
@@ -43,17 +47,7 @@ const devops: ISkill.Skill = {
     },
     {
       title: 'Git',
-      level: 1,
-    },
-  ],
-};
-
-const env: ISkill.Skill = {
-  category: 'Platform',
-  items: [
-    {
-      title: 'Linux',
-      level: 3,
+      level: 2,
     },
   ],
 };
@@ -62,19 +56,15 @@ const knowledge: ISkill.Skill = {
   category: 'tool to use',
   items: [
     {
-      title: 'Mybatis',
+      title: 'Spring Boot',
       level: 3,
     },
     {
-      title: 'Spring Data JPA',
-      level: 3,
-    },
-    {
-      title: 'Query DSL',
+      title: 'ORM (Spring Data JPA, Query DSL, Mybatis)',
       level: 2,
     },
     {
-      title: 'Relational Database',
+      title: 'React (with Redux, react-query)',
       level: 2,
     },
   ],
@@ -82,11 +72,11 @@ const knowledge: ISkill.Skill = {
 
 const skill: ISkill.Payload = {
   disable: false,
-  skills: [pl, devops, env, knowledge],
+  skills: [pl, devops, knowledge],
   tooltip: [
-    '[3] 업무에 능숙하게 활용 가능\n',
-    '[2] 활용 가능하나 깊이는 아쉬움\n',
-    '[1] 얕은 경험과 지식 보유\n',
+    '[3] 자신감 있게 업무 가능\n',
+    '[2] 시행착오를 겪어가며 업무 가능\n',
+    '[1] 얕은 경험과 지식으로 추가 학습 필요\n',
   ],
 };
 

@@ -3,7 +3,7 @@ import previewImage from '../asset/profile.jpg';
 import { IGlobal } from '../component/common/IGlobal';
 
 const title = 'SeungJoo Lee - Resume page';
-const description = '함께 성장하기를 바라는 개발 주니어';
+const description = '주어진 일을 책임지고 수행하는 주니어';
 
 export const _global: IGlobal.Payload = {
   favicon,
@@ -19,12 +19,12 @@ export const _global: IGlobal.Payload = {
           url: previewImage,
           width: 800,
           height: 600,
-          alt: 'OpenGraph Image Sample.png',
+          alt: 'Profile.png',
         },
       ],
       type: 'profile',
       profile: {
-        firstName: 'Seungjoo',
+        firstName: 'SeungJoo',
         lastName: 'Lee',
         username: 'Solu',
         gender: 'Male',
